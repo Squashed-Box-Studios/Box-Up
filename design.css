@@ -8,14 +8,6 @@ body{
 
 
 }
-#BG{
-    position: fixed;
-    min-height: 100%;
-    min-width: 100%;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
 #btn{
     font-size: x-large;
     font-family: cursive;
