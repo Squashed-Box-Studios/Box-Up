@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clicker click</title>
+    <title>Box up!</title>
     <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="icon.png">
 </head>
 <body>
-    <div id="click">
-        <button id="btn" onclick="c()">Click me</button>
-        <h2 id="clicks">0</h2>
+    <audio id="audio">
+        <source src="punch.mp3">
+    </audio>
+    <img id="bg" src="background.jpg" alt="bg">
+    <div id="punch">
+        <img src="punching-bag.png" alt="punching-bag" id="punching-bag" onclick="p()">
+        <h2 id="punches">0</h2>
+        <div id="progress">
+            <div id="bar"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
